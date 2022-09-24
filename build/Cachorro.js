@@ -14,7 +14,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.Cachorro = void 0;
 var Animal_1 = require("./Animal");
 var Cachorro = /** @class */ (function (_super) {
@@ -24,7 +24,7 @@ var Cachorro = /** @class */ (function (_super) {
         _this.corre = corre;
         return _this;
     }
-    Cachorro.prototype.emitirSom = function () {
+    Cachorro.prototype.Som = function () {
         console.log("".concat(this.nome, " late"));
     };
     Cachorro.prototype.correr = function () {

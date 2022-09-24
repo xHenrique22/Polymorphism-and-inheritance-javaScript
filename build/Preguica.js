@@ -14,17 +14,17 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.Preguica = void 0;
 var Animal_1 = require("./Animal");
 var Preguica = /** @class */ (function (_super) {
     __extends(Preguica, _super);
-    function Preguica(nome, idade, sobeArvore) {
+    function Preguica(nome, idade, subirArvore) {
         var _this = _super.call(this, nome, idade) || this;
-        _this.sobeArvore = _this.sobeArvore;
+        _this.subirArvore = _this.subirArvore;
         return _this;
     }
-    Preguica.prototype.emitirSom = function () {
+    Preguica.prototype.Som = function () {
         console.log("".concat(this.nome, " zZz"));
     };
     Preguica.prototype.subirArvores = function () {
